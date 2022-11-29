@@ -6,12 +6,14 @@ if (window.XMLHttpRequest) {
     XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
 }
 
-function sacardatos(datos, idDiv){
+function sacardatos(){
     if(XMLHttpRequestObject) {
-        XMLHttpRequestObject.open("GET", datos);
+        var objeto = document.getElementById("contenedor");
+        XMLHttpRequestObject.open("GET", "fichero.php");
         XMLHttpRequestObject.onreadystatechange = function(){
             if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200) {
-                eval(XMLHttpRequestObject.responseText);
+                
+                objeto.innerHTML = XMLHttpRequestObject.responseText;
             }   
         }
         XMLHttpRequestObject.send(null);
