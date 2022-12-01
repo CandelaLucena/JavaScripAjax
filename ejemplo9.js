@@ -6,16 +6,22 @@ if (window.XMLHttpRequest) {
     XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
 }
 
-function sacardatos(){
-    if(XMLHttpRequestObject) {
-        var objeto = document.getElementById("contenedor");
-        XMLHttpRequestObject.open("GET", "fichero3.php");
-        XMLHttpRequestObject.onreadystatechange = function(){
-            if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200) {
-                
-                objeto.innerHTML = XMLHttpRequestObject.responseText;
-            }   
+async function sacardatos(){
+    setTimeout(() => {
+        if(XMLHttpRequestObject) {
+            var objeto = document.getElementById("contenedor");
+            XMLHttpRequestObject.open("GET", "fichero3.php");
+            XMLHttpRequestObject.onreadystatechange = function(){
+                if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200) {
+                    
+                    objeto.innerHTML = XMLHttpRequestObject.responseText;
+                }   
+            }
+            XMLHttpRequestObject.send(null);
         }
-        XMLHttpRequestObject.send(null);
-    }
+    }, 1000);
+}
+
+async function carga(){
+    var objeto = document.getElementById("imagen").src="carga.gif";
 }
