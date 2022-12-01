@@ -17,7 +17,8 @@ function sacardatos(){
         XMLHttpRequestObject.open("GET", "fichero.json");
         XMLHttpRequestObject.onreadystatechange = function(){
             if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200) {
-                objeto.innerHTML = XMLHttpRequestObject.responseText;
+                objetojavascript = JSON.parse(XMLHttpRequestObject.responseText);
+                objeto.innerHTML = objetojavascript.rojo+" "+objetojavascript.verde;
             }   
         }
         XMLHttpRequestObject.send(null);
