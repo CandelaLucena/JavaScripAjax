@@ -13,7 +13,7 @@ function sacardatos(){
     if(XMLHttpRequestObject) {
         var objeto = document.getElementById("contenedor");
         var texto = "texto=Esto es texto";
-        XMLHttpRequestObject.open("POST", "fichero2.php");
+        XMLHttpRequestObject.open("POST", "fichero3.php");
         XMLHttpRequestObject.onreadystatechange = function(){
             if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200) {
                 objeto.innerHTML = XMLHttpRequestObject.responseText;

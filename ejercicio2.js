@@ -12,7 +12,7 @@ function sacardatos(){
     }
     if(XMLHttpRequestObject) {
         var objeto = document.getElementById("contenedor");
-        XMLHttpRequestObject.open("POST", "fichero1.php");
+        XMLHttpRequestObject.open("POST", "fichero2.php");
         XMLHttpRequestObject.onreadystatechange = function(){
             if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200) {
                 objeto.innerHTML = XMLHttpRequestObject.responseText;
