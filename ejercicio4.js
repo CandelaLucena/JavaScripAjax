@@ -1,10 +1,7 @@
 $(document).ready(function(){
     $("#boton").click(function(){
-        $.ajax({
-            type: "POST",
-            url: "programa.php",
-            data: "nombre=Maria&apellido=Garcia",
-            success: respuestacorrecta
+        $.post("programa.php", {nombre:"Candela"}, function (data) {
+            $("#primerDiv").append(data);
         });
     });
 })
