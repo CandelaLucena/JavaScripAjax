@@ -1,4 +1,3 @@
 <?php
-    $data=$_POST["data"];
-    $data = date("h:i:sa");
+    echo "The time is " . date("h:i:sa");
 ?>
