@@ -6,6 +6,9 @@ $(document).ready(function(){
             success: function(texto){
                 $("#primerDiv").html(texto);
             },
+            error: function(){
+                alert("Error");
+            },
         });
     });
 })
