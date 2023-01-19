@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("#boton").click(function(){
         setTimeout(function () {
+            $('#imagen').hide();
             $.ajax({
                 type: "POST",
                 url: "programa.php",
@@ -8,16 +9,14 @@ $(document).ready(function(){
                 success: function(data){
                     $("#primerDiv").html(data);
                 },
-                error: function(){
-                    alert("Error");
+                error: function(errorThrown){
+                    alert("Error codigo:"+errorThrown);
                 },
             });
         }, 2500);
     });
 
     $("#boton").click(function(){
-        async function cargar() {
-            $('#imagen').attr('src','cargar.gif');
-        }
+        $('#imagen').attr('src','cargar.gif');
     });
 })

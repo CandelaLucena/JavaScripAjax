@@ -1,0 +1,9 @@
+<?php
+    $nombre=$_GET["nombre"];
+    $clave=$_GET["clave"];
+    if(($nombre=="pepe")&&($clave=="hola")){
+        echo("correcto");
+    }else{
+        echo("incorrecto");
+    }
+?>
