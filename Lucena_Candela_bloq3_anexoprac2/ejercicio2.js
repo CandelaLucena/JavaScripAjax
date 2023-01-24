@@ -10,7 +10,7 @@ $(document).ready(function(){
                     $("#primerDiv").html(data);
                 },
                 error: function(errorThrown){
-                    alert("Error codigo:"+errorThrown);
+                    alert("Error codigo:"+errorThrown.status);
                 },
             });
         }, 2500);
