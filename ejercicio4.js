@@ -1,8 +1,9 @@
 $(document).ready(function(){
     $("#cambiar").click(function() {
-        $("#imagen").animate({
-            height: "20px",
-            width: "10px",
+        $("h1").animate({
+            color: "#FFC0CB",
+            fontSize: "100px",
+            backgroundColor: "#000000",
         }, 1000);
     });
 })
