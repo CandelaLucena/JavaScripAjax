@@ -1,3 +1,3 @@
-$("#comenzar").click(function(){
-    $("p").aumentar();
+$(document).ready(function(){
+    $( "input[type='checkbox']" ).check();
 })

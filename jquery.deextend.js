@@ -1,9 +1,12 @@
-$.extend({
-    aumentar: function() {
-        this.each(function(){
-            elem = $(this);
-            elem.css("fontSize", "32px");
-         });
-         return this;
+jQuery.fn.extend({
+    check: function() {
+      return this.each(function() {
+        this.checked = true;
+      });
+    },
+    uncheck: function() {
+      return this.each(function() {
+        this.checked = false;
+      });
     }
-}); 
+});
