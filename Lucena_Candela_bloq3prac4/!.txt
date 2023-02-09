@@ -1,0 +1,9 @@
+1.- Tenemos una página con varios párrafos y un botón desaparecer, crea un plugin
+    sencillo para que al pinchar sobre el botón desaparezcan todos los párrafos de la
+    pantalla.
+2.- Crea un plugin nuevo, siguiendo las normas de creación, para que haga lo que
+    tú programes.
+3.- Crea un plugin libre utilizando configuración de opciones(extend).
+4.- Crea una página web con el plugin carrusel (imágenes que tú quieras)
+5.- Crea una página web con el widget acordeon.
+6.- Crea una página con un plugin y un widget que tú selecciones.

@@ -1,0 +1,7 @@
+1.- Realiza una página web que ejecute el contenido de un programa que realizarás en php in-
+    teractuando con una Base de Datos que crearás previamente. El programa es libre y la BD
+    también. Ejecuta algo similar a los ejemplos vistos en clase.
+2.- Realiza una página web con el método POST para traer un fichero php.
+3.- Realiza una página web con el método POST utilizando parámetros.
+4.- Realiza una página web con un fichero XML para envío de datos.
+5.- Realiza una página web con un fichero JSON para envío de datos.

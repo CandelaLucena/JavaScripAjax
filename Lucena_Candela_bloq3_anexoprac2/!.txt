@@ -1,0 +1,20 @@
+1.- Utilizando el método $.ajax trae un fichero de texto y controla las siguientes
+    situaciones:
+    -Si la transferencia de la información se ha realizado correctamente dejala en un
+    contenedor.
+    -Si la transferencia de la información no se ha realizado correctamente que salga un
+    mensaje general de error en la pantalla.
+2.- Utilizando el método $.ajax trae un fichero php que muestre la fecha del
+    sistema(carga lenta) y controla las siguientes situaciones:
+    -Debe salir el logo típico de carga en pantalla antes de mostrar la información
+    recibida.
+    -Si se ha realizado correctamente la transmisión muestrala en pantalla.
+    -Si la transferencia de la información no se ha realizado correctamente muestre el
+    código de error producido.
+3.- Utilizando el método $.ajax trae un fichero js y ejecutalo en cliente.
+4.- Utilizando $.get envia los datos de un formulario a un php. El formulario
+    contendrá el usuario y la clave, verifica que el usuario es “pepe” y la clave es “hola”
+    nos muestre el mensaje “usuario correcto” y si no es este usuario que salga
+    “usuario incorrecto”. Utiliza el método Serialize.
+5.- Trae a través de getJSON la api restful los paises de europa. Accede a este
+    directorio:

@@ -1,0 +1,10 @@
+1.- Crea una página que nos muestre el contenido de un fichero de texto utilizando $.ajax al
+    pinchar sobre el botón “Mostrar fichero de texto”.
+2.- Crea una página que nos cargue otra página html utilizando el método $.load al pinchar
+    sobre el botón “Carga una página html”.
+3.- Crea una página que nos muestre el contenido de un fichero XML utilizando el método $.get
+    al pinchar sobre el botón “Mostrar fichero XML”.
+    Ver como referencia el siguiente enlace:
+    http://www.returngis.net/2011/01/leer-archivos-xml-con-jquery/
+4.- Crea una página que utilizando el método $.post pase uno o dos parámetros a un fichero
+    php y nos devuelva un resultado.

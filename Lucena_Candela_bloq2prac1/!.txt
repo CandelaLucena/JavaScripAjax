@@ -1,0 +1,25 @@
+1.- Realizar un ejercicio similar al ejemplo guía para mostrar los datos de un fichero de texto.
+2.- Realizar un ejercicio con dos enlaces a dos páginas web para que cada vez que se pinche
+    en uno de los enlaces se cargue la página correspondiente de forma asíncrona . Las paginas
+    html deben estar alojadas en el mismo lugar que la principal. No deben tener cabecera HTML,
+    HEAD, TITLE ya que se incluyen como contenido dentro de otra página web.
+    En este ejemplo que os visualizo al pinchar sobre inicio sale la página de inicio.html, cuyo códi-
+    go es el siguiente:
+3.- Realizar una página web que contenga una imagen que se cambie por otra de forma asín-
+    crona (por ejemplo al pinchar un botón “cambio de imagen” se debe producir el cambio).
+4.- Realizar una página web que muestre el contenido de un fichero XML de forma
+    asíncrona( por ejemplo al pinchar en un botón “Mostrar fichero XML” se debe mostrar el conte -
+    nido).
+5.- Realizar un página web que haga una llamada a un fichero JavaScript(extension .js) y
+    ejecute la respuesta correctamente(utiliza la funcion eval).
+6.- Realiza una página web que ejecute el contenido de un programa que realizarás en php. El
+    programa es libre, por ejemplo un programa para mostrar la fecha de sistema.(En este ejercicio
+    no uses parámetros)
+7.- Realiza una página web que ejecute el contenido de un programa que realizarás en php. El
+    programa es libre, pero deber interactuar con los parámetros que le pasaremos con la orden
+    GET.(En este ejercicio debes usar parámetros)
+8.- Realiza una página web que muestre el contenido de un fichero JSON de forma
+    asíncrona(por ejemplo al pinchar un botón “Mostrar fichero JSON” se debe mostrar el conteni-
+    do).
+9.- Realiza una página web que muestre un logo típico de la espera de información en Ajax(ej.
+    Gif animado) mientras estamos esperando que nos devuelva algún dato con php.

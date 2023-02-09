@@ -1,0 +1,18 @@
+1.- Mediante botones haz que se puedan aplicar todos los efectos (básicos, fundido,
+    deslizamiento, animate ) sobre una imagen. Ejemplo: botón hide ( al pinchar sobre él se
+    ocultará la imagen, así con el resto de efectos).
+2.- Sobre un fondo de color azul muestra en el centro de la pantalla un mensaje con el texto
+    “Bienvenidos a esta aplicación” que cambie de transparente a opaco al pinchar sobre el botón
+    “Saludo” y a la inversa, de opaco a transparente al pinchar sobre el botón “Despedida”.
+3.- En la pantalla debe aparecer un cubo que se mueva haciendo la trayectoria de un
+    cuadrado. En la página habrán dos botones uno será “Parar Efecto” que parará todos los
+    efectos que tenga asignado el cubo y el otro será “Iniciar Efecto” que hará que se reanude su
+    movimiento.
+4.- Utilizando animate cambia el color inicial(al hacer click sobre estas) de todas las etiquetas
+    h1 de un documento.
+5.- Utilizando el método queue para acceder a la cola de efectos, encola los siguientes efectos
+    (por este orden) sobre una capa(puede ser el cubo creado en el ejercicio 3).
+    -animate
+    -css
+    -animate
+    Entre cada efecto utilizar un delay para que se pueda ver mejor cada efecto.
